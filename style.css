@@ -9,7 +9,7 @@ h1{
     color:orange;
 }
 
-section{
+.flexible-container{
     display:flex;
     margin: 100px;
 }
@@ -35,4 +35,32 @@ section{
     background-image: url(images//dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.lasthalf{
+    width: 40%;
+    height: 30%
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+.last-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#blue{
+    border-left:10px solid;
+    border-image:linear-gradient(rgb(26, 26, 207),rgb(63, 218, 218));
+    border-image-slice: 1;
+}
+#red{
+    border-left:10px solid;
+    border-image:linear-gradient(rgb(230, 8, 8),rgb(214, 133, 12));
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
 }
